@@ -4,9 +4,6 @@ Self-Driving Car Engineer Nanodegree Program
 
 In this project utilize an Unscented Kalman Filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. Passing the project requires obtaining RMSE values that are lower that the tolerance outlined in the project reburic.
 
-Skip to content This repository Search Pull requests Issues Marketplace Explore @ssvat Sign out Watch 0 Star 0 Fork 0 ssvat/sdc-ukf Code Issues 0 Pull requests 0 Projects 0 Wiki Insights Settings Branch: master Find file Copy pathsdc-ukf/readme.txt f8fe42a 9 minutes ago @ssvat ssvat Update readme.txt 1 contributor RawBlameHistory
-38 lines (24 sloc) 2.07 KB PROJECT DESCRIPTION The project "unscented Kalman filter" is based on the same structure as the extended Kalman filter. It uses a main file that calls a function called ProcessMeasurement. Anything important happens in this function. The function is part of the class ukf.
-
 Build instructions
 
 a. Clone this repo. b. Make a build directory: mkdir build && cd build c. Compile: cmake .. && make d. ./UnscentedKF
