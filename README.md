@@ -1,10 +1,8 @@
-#Unscented Kalman Filter Project Starter Code
-
-#Self-Driving Car Engineer Nanodegree Program
+## Unscented Kalman Filter Project 
 
 In this project utilize an Unscented Kalman Filter to estimate the state of a moving object of interest with noisy lidar and radar measurements. Passing the project requires obtaining RMSE values that are lower that the tolerance outlined in the project reburic.
 
-##Build instructions
+### Build instructions
 
 a. Clone this repo. 
 
@@ -14,7 +12,7 @@ c. Compile: cmake .. && make
 
 d. ./UnscentedKF
 
-##Discussion
+### Discussion
 
 Tuning In the ukf.cpp file, the paramters that can be tuned includes std_a, std_yawd, and the initialization of x_ and P_ for Radar and Lidar, respectively.
 I tested the process noise standard deviation longitudinal acceleration, std_a_, from 0.2 up to 1.2. Finally the value of 1.2 is set. This means the acceleration is not relatively high. The process noise standard deviation yaw acceleration, std_yawd_, was tested from 0 to 0.5 and finally set as 0.5. The state covariance, P_, was set as an identical matrix for initialization for both sensors. The results have been experimented with different initialization for radar as the RMSEs were higher than those of Lidar. The explanation is show below: x_ for Radar: This was based off the first radar measurement. The middle value, v, has been tuned to a value of 4 m/s, equal to an average bike speed of 15.5 km/h. x_ for Lidar: The first two values are filled by the 'px' and 'py' lidar measurements. Others are set to zero and the results are pretty good.
