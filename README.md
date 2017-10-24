@@ -6,7 +6,10 @@ In this project utilize an Unscented Kalman Filter to estimate the state of a mo
 
 Build instructions
 
-a. Clone this repo. b. Make a build directory: mkdir build && cd build c. Compile: cmake .. && make d. ./UnscentedKF
+a. Clone this repo. 
+b. Make a build directory: mkdir build && cd build 
+c. Compile: cmake .. && make 
+d. ./UnscentedKF
 
 Introduction
 
