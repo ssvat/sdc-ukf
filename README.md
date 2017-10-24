@@ -20,6 +20,12 @@ Comparisons Here I present my results (mostly are close or lower than the criter
 
 Parameter	UKF-Data1	UKF-Data2	EKF-Data1	UKF-Data2 px 0.0973	0.0726	0.0662	0.0690 py	0.0855	0.0967	0.0827	0.0669 vx 0.4513	0.4579	0.3326	0.4449 vy	0.4399	0.4966	0.2145	0.3891
 
+| Parameter| RMSE-EKF-Data1| RMSE-EKF-Data2| RMSE-UKF-Data1| RMSE-UKF-Data2| 
+|:--------:|:-------------:|:-------------:|:-------------:|:-------------:| 
+| px       |     0.0973    |     0.0726    |     0.0662    |     0.0690    |
+| py       |     0.0855    |     0.0967    |     0.0827    |     0.0699    |
+| vx       |     0.4513    |     0.4579    |     0.3326    |     0.4449    |
+| vy       |     0.4399    |     0.4966    |     0.2145    |     0.3891    |
 px and py represent position in x and y direction, respectively while vx and vy represent velocities in x and y direction. RMSE is the root mean squared error.
 
 ![Final RMSE by using Dataset 1](snapshot/fig1.png)
