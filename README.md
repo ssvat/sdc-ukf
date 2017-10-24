@@ -22,6 +22,6 @@ Parameter	UKF-Data1	UKF-Data2	EKF-Data1	UKF-Data2 px 0.0973	0.0726	0.0662	0.0690
 
 px and py represent position in x and y direction, respectively while vx and vy represent velocities in x and y direction. RMSE is the root mean squared error.
 
-![Final RMSE by using Dataset 1](snapshot/fig 1.png)
+![Final RMSE by using Dataset 1](snapshot/fig1.png)
 
-![Final RMSE by using Dataset 2](snapshot/fig 2.png)
+![Final RMSE by using Dataset 2](snapshot/fig2.png)
